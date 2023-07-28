@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/partlycloudy.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.solution247.weatherapp"
     },
     "web": {
       "favicon": "./assets/images/partlycloudy.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ef50f42-84b7-4651-a0c9-9240bc0f68ec"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/7ef50f42-84b7-4651-a0c9-9240bc0f68ec"
     }
   }
 }
