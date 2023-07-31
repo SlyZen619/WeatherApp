@@ -78,7 +78,7 @@ export default function HomeScreen() {
       />
       {loading ? (
         <View className="flex-1 flex-row items-center justify-center">
-          <Progress.CircleSnail thickness={10} size={140} color="#9A4F99" />
+          <Progress.CircleSnail thickness={10} size={140} color="#0bb3b2" />
         </View>
       ) : (
         <SafeAreaView className="flex flex-1">
