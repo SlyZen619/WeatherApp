@@ -77,8 +77,9 @@ export default function HomeScreen() {
         className="absolute h-full w-full"
       />
       {loading ? (
-        <View className="flex-1 flex-row items-center justify-center">
-          <Progress.CircleSnail thickness={10} size={140} color="#0bb3b2" />
+        <View className="flex-1 items-center justify-center">
+          <Progress.Bar indeterminate size={250} color="#0bb3b2" />
+          <Text className='text-xl font-bold text-white mt-4 text-center'>Fetching data...</Text>
         </View>
       ) : (
         <SafeAreaView className="flex flex-1">
