@@ -16,3 +16,4 @@ export const getData = async (key) => {
     console.log("Error retrieving value: ", error);
   }
 };
+

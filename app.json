@@ -22,15 +22,14 @@
         "foregroundImage": "./assets/images/partlycloudy.png",
         "backgroundColor": "#0bb3b2"
       },
-      "package": "com.solution247.weatherapp"
+      "package": "com.solution247.weatherapp",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
     },
     "web": {
       "favicon": "./assets/images/partlycloudy.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "7ef50f42-84b7-4651-a0c9-9240bc0f68ec"
-      }
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
